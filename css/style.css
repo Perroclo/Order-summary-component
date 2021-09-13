@@ -1,0 +1,211 @@
+body{
+
+background: url(../images/pattern-background-desktop.svg) repeat-x;
+	background-size:cover;
+	background-attachment: fixed
+	background-repeat: no-repeat;
+
+}
+
+
+.container{
+display: flex;
+justify-content: center;
+margin-top: 221px;
+}
+
+.contenido{
+
+ background-color: white;
+ width: 320px;
+ height: 468px;
+ border-radius: 15px;
+
+
+}
+
+.letrero{
+
+width: 320px;
+height:154px;
+border-radius: 15px 15px 0px 0px;
+
+}
+
+h1{
+
+font-family: helvetica;
+font-size: 20px;
+font-weight: 800;
+display: flex;
+justify-content: center;
+}
+
+.description{
+
+
+font-family: helvetica;
+display: flex;
+justify-content: center;
+font-size: 12px;
+line-height: 17px;
+text-align: center;
+margin-top: 2px;
+}
+
+.letras{
+
+background-color: white;
+width: 218px;
+height: 52px;
+border-radius: 15px;
+display: flex;
+margin:0px auto;
+
+}
+
+.plan_anual{
+
+background-color: #FBFAFA;
+width: 252px;
+height: 71px;
+border-radius: 5px;
+margin:0px auto;
+margin-top: 10px;
+position: relative;
+}
+
+.costos{
+    font-size: 12px;
+    font-family: helvetica;
+    margin-left: 62px;
+    font-weight: 800;
+    width: 82px;
+    position: absolute;
+    top:9%;
+}
+
+.moneda{
+
+font-size: 12px;
+line-height: 17px;
+font-family: helvetica;
+margin-left: 62px;
+position: absolute;
+top:34%;
+color:gray;
+font-weight: 600;
+
+}
+
+.icono{
+
+position: absolute;
+margin-top: 18px;
+height: 33px;
+margin-left:15px;
+}
+
+.cambio{
+position: absolute;
+ font-size: 10px;
+ font-family: helvetica;
+font-weight: 800;
+display: flex;
+margin-top: 25px;
+margin-left: 192px;
+text-decoration-line: underline;
+color: blue;
+
+}
+
+.proceder{
+
+display: flex;
+justify-content: center;
+margin:0px auto;
+height: 35px;
+margin-top: 20px;
+line-height: 30px;
+border-radius: 5px;
+width: 252px;
+background:white;
+color: gray;
+font-family: helvetica;
+font-weight: 600;
+font-size: 11px;
+border:none;
+
+}
+
+.cancelar{
+display: flex;
+justify-content: center;
+margin:0px auto;
+border:none;
+background: white;
+font-family: helvetica;
+font-weight: 600;
+font-size: 11px;
+color:gray;
+height: 35px;
+border-radius: 5px;
+width: 252px;
+line-height: 31px;
+}
+
+.attribution{
+
+width: 60%;
+height: 90px;
+background: transparent;
+margin:0px auto;
+
+}
+
+.description{
+
+color:gray;
+
+}
+
+.firma {
+
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+
+.nombre{
+
+	display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.cambio:hover
+{
+
+
+	cursor: pointer;
+	color: black
+}
+
+
+.proceder:hover
+{
+
+	cursor: pointer;
+	background :#090CEF;
+	color:white;
+}
+
+
+.cancelar:hover
+{
+
+	cursor: pointer;
+	background :#090CEF;
+	color: white;
+}
